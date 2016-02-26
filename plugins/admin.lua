@@ -185,21 +185,21 @@ local function run(msg,matches)
 end
 return {
   patterns = {
-	"^[!/](pm) (%d+) (.*)$",
-	"^[!/](import) (.*)$",
-	"^[!/](unblock) (%d+)$",
-	"^[!/](block) (%d+)$",
-	"^[!/](markread) (on)$",
-	"^[!/](markread) (off)$",
-	"^[!/](setbotphoto)$",
+	"^[*](pm) (%d+) (.*)$",
+	"^[*](import) (.*)$",
+	"^[*](unblock) (%d+)$",
+	"^[*](block) (%d+)$",
+	"^[*](markread) (on)$",
+	"^[*](markread) (off)$",
+	"^[*](setbotphoto)$",
 	"%[(photo)%]",
-	"^[!/](contactlist)$",
-	"^[!/](dialoglist)$",
-	"^[!/](delcontact) (%d+)$",
-	"^[!/](whois) (%d+)$",
+	"^[*](contactlist)$",
+	"^[*](dialoglist)$",
+	"^[*](delcontact) (%d+)$",
+	"^[*](whois) (%d+)$",
 	"^/(sync_gbans)$"--sync your global bans with seed
   },
   run = run,
 }
---By @imandaneshi :)
+--By @mohammadslayer :)
 --https://github.com/SEEDTEAM/TeleSeed/blob/master/plugins/admin.lua
